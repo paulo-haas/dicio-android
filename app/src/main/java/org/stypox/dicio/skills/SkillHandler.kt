@@ -12,6 +12,9 @@ import org.dicio.skill.output.GraphicalOutputDevice
 import org.dicio.skill.output.SpeechOutputDevice
 import org.stypox.dicio.R
 import org.stypox.dicio.Sections
+import org.stypox.dicio.skills.bluetooth.connect_device.ConnectDeviceInfo
+import org.stypox.dicio.skills.bluetooth.paired_devices.PairedDevicesInfo
+import org.stypox.dicio.skills.bluetooth.state.StateInfo
 import org.stypox.dicio.skills.calculator.CalculatorInfo
 import org.stypox.dicio.skills.current_time.CurrentTimeInfo
 import org.stypox.dicio.skills.fallback.text.TextFallbackInfo
@@ -38,6 +41,9 @@ object SkillHandler {
         TelephoneInfo(),
         TimerInfo(),
         CurrentTimeInfo(),
+        StateInfo(),
+        PairedDevicesInfo(),
+        ConnectDeviceInfo(),
     )
 
     private val fallbackSkillInfoList = listOf(TextFallbackInfo())

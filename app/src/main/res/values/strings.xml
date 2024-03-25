@@ -79,6 +79,12 @@
     <string name="stt_say_something">Say something…</string>
     <string name="stt_did_not_understand">I could not understand, try again</string>
     <string name="stt_service">Speech to text service</string>
+    <string name="skill_name_bluetooth_connect_device">Bluetooth Conenct Device</string>
+    <string name="skill_sentence_example_bluetooth_connect_device">Connect to HeadsetXYZ123.</string>
+    <string name="skill_name_bluetooth_paired_devices">Bluetooth Paired Devices</string>
+    <string name="skill_sentence_example_bluetooth_paired_devices">Show paired bluetooth devices.</string>
+    <string name="skill_name_bluetooth_state">Bluetooth Settings</string>
+    <string name="skill_sentence_example_bluetooth_state">Turn on bluetooth.</string>
     <string name="skill_name_search">Search</string>
     <string name="skill_sentence_example_search">Search how to feed a cat</string>
     <string name="skill_name_weather">Weather</string>
